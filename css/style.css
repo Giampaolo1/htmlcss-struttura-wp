@@ -1,4 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*  header  */
+.headercont {
+  background: lightblue;
+  width: 60%;
+  height: 200px;
+  position: relative;
+  left: 250px;
+}
   /*  navbar */
 /*  blocco generale */
   /*  left column */
