@@ -4,15 +4,33 @@
   box-sizing: border-box;
 }
 
+body{
+  position: relative;
+  left: 20vw;
+}
+
 /*  header  */
+
 .headercont {
   background: lightblue;
   width: 60%;
   height: 200px;
-  position: relative;
-  left: 250px;
 }
   /*  navbar */
+  .navbar {
+    width: 60%;
+    height: 50px;
+    background: grey;
+    text-align: center;
+  }
+
+  .menu li {
+    display: inline-block;
+  }
+
+  .menu {
+    display: inline-block;
+  }
 /*  blocco generale */
   /*  left column */
   /*  center column */
