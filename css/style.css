@@ -1,11 +1,11 @@
-/*  Page  */
+/*  Regole generali di pagina  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+container {
   position: relative;
   left: 20vw;
   background-image: url(../img/background.jpg);
@@ -68,6 +68,7 @@ border: 2px solid black;
     width: 20%;
     height: 600px;
     float: left;
+    display: inline-block;
   }
 
   /*  center column */
@@ -77,6 +78,7 @@ border: 2px solid black;
     width: 20%;
     height: 300px;
     float: right;
+    display: inline-block;
   }
   /*  right column */
     /*  RC1 */
